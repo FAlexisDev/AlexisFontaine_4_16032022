@@ -88,11 +88,13 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
+    
 }
 
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    opacity: 0.4;
 }
 
 .b-parallax {
@@ -811,6 +813,7 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
+
 }
 
 .bg-lines-h2-bg {
@@ -822,7 +825,11 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
+}
+
+.borderradius {
+    border-radius: 40%;
 }
 
 @media (max-width: 1024px) {
