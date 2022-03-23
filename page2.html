@@ -158,39 +158,45 @@
               <div class="col-sm-6">
                 <form
                   id="form_1"
-                  novalidate
+                  method="post"
                   success-msg="Your message has been sent."
                   fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
+                  action="includes/form_1.php"
                 >
                   <div class="form-group">
-                    <label> Nom </label>
-                    <input id="name" class="form-control" required />
+                    <label for="name" class="form-label"> Nom </label>
+                    <input id="name" class="form-input" required />
                   </div>
                   <div class="form-group">
-                    <label> Adresse email </label>
+                    <label for="email" class="form-label">
+                      Adresse email
+                    </label>
                     <input
                       id="email"
-                      class="form-control"
+                      class="form-input"
                       type="email"
+                      pattern="^[^ ]+@[^ ]+\.[a-z]{2,6}$"
                       required
                     />
                   </div>
                   <div class="form-group">
-                    <label> Comment nous avez-vous connu ? </label>
+                    <label for="input_504" class="form-label">
+                      Comment nous avez-vous connu ?
+                    </label>
                     <input
-                      class="form-control"
-                      type="email"
+                      class="form-input"
+                      type="text"
                       required
                       id="input_504"
                     />
                   </div>
                   <div class="form-group">
-                    <label>
+                    <label for="message" class="form-label">
                       Brief de votre projet (Ajoutez autant de détails que
                       nécessaire)<br /> </label
                     ><textarea
                       id="message"
-                      class="form-control"
+                      class="form-input"
                       rows="4"
                       cols="50"
                       required
@@ -199,6 +205,7 @@
                   <button
                     class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
                     type="submit"
+                    id="form_1"
                   >
                     Envoyer
                   </button>
