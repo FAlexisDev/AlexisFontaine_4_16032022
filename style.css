@@ -382,7 +382,6 @@ textarea {
   margin-top: 10px;
 }
 
-
 @media (min-width: 768px) {
   .site-navigation {
     position: absolute;
@@ -701,10 +700,12 @@ a {
 
 p {
   font-size: 15px;
+  color: #000000 !important;
 }
 
 figcaption {
-    font-size: 15px;
+  font-size: 15px;
+  color: #000000;
 }
 
 .tight-width-whitespace {
@@ -767,8 +768,7 @@ h4 {
 }
 
 .textcolor {
-    color: black !important;
-   
+  color: black !important;
 }
 .portfolio-thumb {
   margin-bottom: 24px;
@@ -810,13 +810,12 @@ h4 {
   font-weight: bold;
 }
 .colortext {
-    color: rgba(0, 0, 0, 0.7) !important;
-    font-weight: normal;
+  color: rgba(0, 0, 0, 0.7) !important;
+  font-weight: normal;
 }
 .btn-atomic-tangerine {
   background: rgba(243, 151, 108, 0.8);
   color: #ffffff !important;
-
 }
 
 .btn-atomic-tangerine:hover {
@@ -826,7 +825,6 @@ h4 {
 
 .ltc-white {
   color: #ffffff !important;
-  
 }
 
 .ltc-white:hover {
