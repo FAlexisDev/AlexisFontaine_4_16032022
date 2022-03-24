@@ -54,6 +54,8 @@ a:hover {
 
 .bloc-sm {
   padding: 20px 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .bg-center,
@@ -294,12 +296,14 @@ a:hover {
 }
 
 .navbar-brand {
+ 
   height: auto;
   padding: 3px 15px;
   font-size: 25px;
   font-weight: normal;
   font-weight: 600;
   line-height: 44px;
+ 
 }
 
 .navbar-brand img {
